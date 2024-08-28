@@ -1,0 +1,95 @@
+
+.parameter{
+    height: 7vh;
+    width: 30vw;
+    /* background-color: green; */
+    border-radius: 10px;
+    margin-left: 40vw;
+
+}
+
+
+#pTable{
+    width: 80%;
+    height: auto;
+    margin-left: 5%;
+}
+
+tr{
+    height: 5vh;
+    width: 13.333vw;
+    border: 1px solid black;
+
+}
+
+.data{
+    height:5vh;
+    width: 15vw;
+    font-size:larger;
+    text-align: center; 
+    
+}
+th{
+    border: 1px solid black;    
+}
+
+td{
+    border: 1px solid black; 
+    align-items: center;
+    
+}
+
+.out{
+    height: 5vh;
+    width: 15vw;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.addItem{
+    height: 8vh;
+    width: 5vw;
+    background-color: yellow;
+    margin: 3px;
+}
+
+.gannt{
+    height: 10vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+main{
+    margin-top: 2vh;
+}
+
+
+.gantt-chart {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #333;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.process-id {
+    font-weight: bold;
+}
